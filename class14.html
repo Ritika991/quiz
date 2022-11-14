@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .div1{
+            height: 80px;
+            width: 100%;
+            background-color: aquamarine;
+            text-align: center;
+        }
+        a{
+
+            color: brown;
+            font-size: 30px;
+            padding: 20px;
+        }
+        a:hover{
+            background-color: burlywood;
+            border-radius: 10px;
+
+        }
+        a::after{
+            content: '.yolo';
+        }
+
+        a::before{
+            content: 'Y.';
+        }
+        li:last-child{
+            background-color: cadetblue;
+        }
+        li:first-child{
+            background-color: blue;
+            color: white;
+        }
+        li:nth-child(even){
+            color: red;
+        }
+        li:nth-child(1) , li:nth-child(3){
+            font-size: 30px;
+        }
+        p::first-line{
+            background-color: aqua;
+        }
+
+    </style>
+</head>
+<body>
+   <div class="div1">
+    <nav>
+        <a href="">home</a>
+        <a href="">about</a>
+        <a href="">contact</a>
+        <a href="">service</a>
+
+    </nav>
+   </div>
+     
+   <div>
+    <ul>
+        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+        <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </li>
+        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. </li>
+        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. </li>
+    </ul>
+   </div>
+
+   <p>
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, possimus blanditiis placeat voluptas in obcaecati suscipit ex ipsum vel perspiciatis inventore amet quis. Temporibus aspernatur facere, ab iste minima officiis.
+   </p>
+
+</body>
+</html>
